@@ -1,0 +1,44 @@
+#posicionamento {
+  padding-top: 20%;
+  padding-left: 10%;
+
+}
+
+.saida{
+  --background: rgb(77, 77, 77);
+}
+
+ion-content{
+  --ion-background-color: white;
+}
+
+h1 {
+  color:black;
+}
+
+ ion-input:hover {
+  --background: rgb(77, 77, 77);
+  --color: white;
+  --placeholder-color:white;
+}
+
+#botao{
+  --padding-top: 100px;
+}
+
+
+@keyframes color {
+  0%   { background: #7f7f7f; }
+  20%  { background: #e8e8e8; }
+  40%  { background: #cccccc; }
+  60%  { background: #bebebe; }
+  80%  { background: #999999; }
+  100% { background: #7f7f7f; }
+}
+
+body {
+  background: #33CCCC; /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+
+}
